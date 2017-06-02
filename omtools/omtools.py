@@ -56,7 +56,8 @@ def om1(q, t, ti, Td=5., errvar=0.1, dcovmat=None, unbiased=True, verbose=True):
     else:
         Cqq = np.exp(-dtt2/Td**2)    # Assuming the data autocovariance function is Gaussian instead.
         Cqq = np.matrix(Cqq).T       # Model covariance matrix evaluated at data locations.
-        Cqq = Cqq + errvar*np.eye(n) # Get the actual data covariance matrix by adding the sampling noise. Assuming sampling error to be random, normal and spatially uncorrelated.
+        Cqq = Cqq + errvar*np.eye(n) # Get the actual data covariance matrix by adding the sampling noise.
+                                     #Assuming sampling error to be random, normal and spatially uncorrelated.
 
     Cmm = np.exp(-dtiti2/Td**2)
     Cmm = np.matrix(Cmm).T        # Model autocovariance matrix.

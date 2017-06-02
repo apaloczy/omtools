@@ -6,7 +6,7 @@ def readme():
 
 setup(name='omtools',
       version='0.1',
-      description='Objective mapping in 1D and 2D.',
+      description='Objective mapping in one and two dimensions.',
       url='https://github.com/apaloczy/omtools',
       license='MIT',
       packages=['omtools'],
