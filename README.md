@@ -1,6 +1,10 @@
-# numtools
+# omtools
 
-Some numerical tools I wrote for a numerical methods class (MAE290B) taken at UCSD. Mostly ODE and PDE solvers.
+Objective mapping code I wrote for a data analysis class (SIOC221C) taken at UCSD.
+
+# TODO
+
+Fix calculation of gain matrix for the unbiased case.
 
 # Dependencies
 
