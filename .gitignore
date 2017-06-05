@@ -23,3 +23,6 @@ var/
 *.egg-info/
 .installed.cfg
 *.egg
+
+# Jupyter notebooks
+*.ipynb_checkpoints
